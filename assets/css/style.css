@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(37, 36, 36);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    color:white;
+    text-align: center;
+}
+
+header h1 {
+    color:blueviolet;
+    font-size: 50px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    padding-inline: 10px;
+    padding-bottom: 10px;
+}
+
+.card h3 {
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    width: 75%;
+    text-align: center;
+    margin-inline: auto;
+    padding: 4px;
+    background-color:bisque
+    
+}
+
+.card article {
+    border: 5px dashed antiquewhite;
+    padding-inline: 10px;
+    background-color:blueviolet;
+}
+
+article pre {
+    background-color:brown;
+}
